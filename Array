@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+    int a[3][2]= { {0,0}, {1,2}, {3,4}};
+    int j, i;
+    int ID= 1221;
+    int PIN= 1122;
+
+    for (i=0;i<3;i++){
+
+    for (j=0;j<2;j++){
+            printf("Enter your ID#: \n ", i,j, a[i][j]);
+            scanf("%d", &ID);
+            printf("Enter your PIN: \n ", i,j, a[i][j]);
+            scanf("%d", &PIN);
+    }
+    }
+if
+    (ID == 1221)
+    printf("You have successfully loggin in ID#:1221");
+else if
+    (PIN == 1122)
+    printf("You have successfully login in ID#:1221");
+    else
+        printf("Invalid ID/PIN");
+    return 0;
+}

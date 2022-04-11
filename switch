@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main()
+{
+   int a;
+   printf("Enter any integer: ");
+   scanf("%d", &a);
+   switch(a<0)
+   {
+   case 1:
+        printf("The integer is negative");
+    break;
+   case 0:
+        printf("The integer is positive");
+    break;
+   default:
+        printf("Invalid");
+
+   }
+
+return 0;
+}

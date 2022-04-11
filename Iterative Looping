@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+   int a, reverse=0, rem;
+    printf("Enter your number: ");
+    scanf("%d", &a);
+    while(a)
+    {
+    rem = a % 10;
+    reverse= reverse * 10 +  rem;
+    a = a / 10;
+    }
+    printf("Revised number is %d\n", reverse);
+return 0;
+}

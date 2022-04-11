@@ -1,0 +1,50 @@
+#include<stdio.h>
+
+int main()
+{
+    int a=16, b=4, ADD, MUL, DIV, SUB;
+     printf("Enter your two integers: ");
+     scanf("%d", & a);
+     printf("Enter your two integers: ");
+     scanf("%d", & b);
+
+        ADD = a+b;
+        printf("Sum: %d\n", ADD);
+
+        MUL = a*b;
+        printf("Product: %d\n", MUL);
+
+        DIV = a/b;
+        printf("Quotient: %d\n", DIV);
+
+        SUB = a-b;
+        printf("Difference: %d\n", SUB);
+
+return 0;
+}
+
+
+#include<stdio.h>
+
+int main()
+{
+    int a=15, b=10, ADD, MUL, DIV, SUB;
+     printf("Enter your two integers: ");
+     scanf("%d", & a);
+     printf("Enter your two integers: ");
+     scanf("%d", & b);
+
+        ADD = a+b;
+        printf("Sum: %d\n", ADD);
+
+        MUL = a*b;
+        printf("Product: %d\n", MUL);
+
+        DIV = a/b;
+        printf("Quotient: %d\n", DIV);
+
+        SUB = a-b;
+        printf("Difference: %d\n", SUB);
+
+return 0;
+}

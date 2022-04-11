@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main ()
+{
+    FILE * fptr;
+  int id, a, b, c, sum, average;
+  char str[100];
+    fptr = fopen("C:\\program.txt","w");
+    if(fptr==NULL){
+    printf("error!");
+    exit(1);
+}
+
+printf("Enter your name: ");
+scanf("%s",&str);
+printf("ID number: ");
+scanf("%d",&id);
+printf("Math grade: ");
+scanf("%d",&a);
+printf("Science grade: ");
+scanf("%d",&b);
+printf("English grade: ");
+scanf("%d",&c);
+sum = a + b + c;
+printf("The sum of %d + %d + %d = %d", a,b,c,sum);
+average = sum / 3;
+printf("The average of %d / 3 = %d", sum,average);
+fclose(fptr);
+
+return 0;
+}
+
+int main ()
+{
+    FILE * fptr;
+  int id, a, b, c, sum, average;
+  char str[100];
+    fptr = fopen("C:\\program1.txt","w");
+    if(fptr==NULL){
+    printf("error!");
+    exit(1);
+}
+
+printf("Enter your name: ");
+scanf("%s",&str);
+printf("ID number: ");
+scanf("%d",&id);
+printf("Math grade: ");
+scanf("%d",&a);
+printf("Science grade: ");
+scanf("%d",&b);
+printf("English grade: ");
+scanf("%d",&c);
+sum = a + b + c;
+printf("The sum of %d + %d + %d = %d", a,b,c,sum);
+average = sum / 3;
+printf("The average of %d / 3 = %d", sum,average);
+fclose(fptr);
+
+return 0;
+}

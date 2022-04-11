@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+
+{
+
+int marks[5], i, n=5, sum = 0;
+
+for(i=0; i<n; ++i)
+
+{
+printf("size of array: %d\n ", n);
+printf("Elements%d: ",i+1);
+
+scanf("%d", &marks[i]);
+
+
+sum += marks[i];
+
+}
+
+sum = sum;
+
+printf("sum of all array = %d", sum);
+
+return 0;
+
+}
